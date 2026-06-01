@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+  background: var(--gradient-body-bg);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

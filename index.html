@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Portfolio - Mark Aaron Domingo</title>
+
+  <link rel="stylesheet" href="styles/main.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+</head>
+
+<body>
+
+  <div class="nav-bar-container">
+
+  <nav class="nav-bar">
+
+    <img src="assets/logo-dark-bg.png" alt="Logo" class="logo">
+
+    <div class="burger" id="burger">
+      ☰
+    </div>
+
+    <ul id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#about-skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+  </nav>
+
+</div>
+
+
+    <section class="home" id="home">
+
+        <div class="home-pfp-container">
+            <img src="assets/pfp.png" alt="Profile Picture">
+        </div>
+
+        <div class="intro-container">
+          <h2>Mark Aaron Domingo</h2>
+          <h4>Technical Support |
+              <span class="highlight">Web Developer</span>
+              | Aspiring Software Engineer
+          </h4>
+          <p>
+          Welcome to my portfolio website! I'm a passionate technical support specialist with a strong interest in web development and 
+          software engineering. I enjoy solving problems and creating innovative solutions. Feel free to explore my projects and get in touch!
+          </p>
+        
+          <div class="buttons-container">
+            <button id="btn-resume" a href="#">RESUME</button>
+            <button id="btn-projects" a href="#projects">PROJECTS</button>
+            <button id="btn-contact" a href="#contact">CONTACT</button>
+          </div>
+
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+
+      <div class="about-intro">
+
+        <div class="description-left">
+
+          <div class="parenthesis">{ ABOUT ME }</div>
+
+          <div class="educ">
+            <img src="assets/toga.png" alt="toga" class="toga-image">
+            <h2>EDUCATION</h2>
+          </div>
+
+          <div class="educ-description">
+            <p>
+            I graduated with a
+            <span class="degree">
+              Bachelor's Degree in Computer Science
+            </span>
+            from Tarlac State University in 2024.
+            </p>
+          </div>
+
+          <div class="work">
+            <img src="assets/work.png" alt="work" class="work-image">
+            <h2>WORK EXPERIENCE</h2>
+          </div>
+
+          <div class="work-description">
+            <p>
+            I have experience in
+            <span class="work-experience">
+              Technical Support and Marketing
+            </span>
+            in North Software Solution at Mandaluyong City (2024-2025).
+            </p>
+          </div>
+
+          <button id="btn-explore" a href="pages/about-page.html">Learn More About Me</button>
+
+        </div>
+
+      <div class="overlap-right">
+
+        <h1 class="bg-text-greet">Kumusta, 👋</h1>
+        <h1 class="bg-text-name">I'm Aaron </h1>
+
+        <div class="image-wrapper">
+          <img src="assets/educ-pic.png" alt="Aaron">
+        </div>
+
+      </div>
+
+    </div>
+
+    </section>
+
+    <section class="about-skills" id="about-skills">
+
+      <h2 class="skills-title">SKILLS</h2>
+
+    <div class="cards-container">
+
+      <div class="certifications">
+        <h3>CERTIFICATIONS & CREDENTIALS</h3>
+        <p>Google IT Support Professional Certificate</p>
+        <p>Google Foundations of Digital Marketing Certificate</p>
+        <p>Google Foundations of UX Design Certificate</p>
+        <p>TESDA Computer Systems Servicing NCII Completion</p>
+      </div>
+
+      <div class="pre-professional-experience">
+        <h3>PRE-PROFESSIONAL EXPERIENCE</h3>
+        <p>Web Development Intern | iPhiTech IT and Digital Solutions | 2023</p>
+        <p>Thesis Team Leader | Enhanced Online Video Contents Website with Age Detection
+           Using Convolutional Neural Networks | Tarlac State University | 2024</p>
+      </div>
+
+      <div class="tech-skills">
+        <h3>TECHNICAL SKILLS</h3>
+        <p>Technical Troubleshooting | Web Development | Technical Writing | Digital Marketing | UI/UX Design
+          | Basic SEO and Website Optimization | Microsoft Office Suite | Google Workspace | AI-Assisted Tools (ChatGPT, Google Gemini)
+        </p>
+      </div>
+
+      <div class="soft-skills">
+        <h3>SOFT SKILLS</h3>
+        <p>Communication | Collaboration | Problem Solving | Attention to Detail | Technology Adaptability | Interpersonal Skills</p>
+      </div>
+
+    </div>
+
+      <div class="explore-skills-btn-container">
+      <button id="btn-explore-skills" onclick="window.location.href='pages/about-page.html#skills-section'">Explore My Skills</button>
+      </div>
+
+        
+    </section>
+
+    <section class="projects-section">
+
+  <div class="projects-header">
+    <h2 class="projects-title">PROJECTS</h2>
+
+  <div class="carousel-wrapper">
+
+    <button class="carousel-btn prev">
+      &#10094;
+    </button>
+
+    <div class="carousel-track">
+
+      <!-- CARD 1 -->
+      <article class="project-card">
+
+        <div class="project-top">
+
+          <div class="completed-badge">
+            Current
+          </div>
+
+          <h3>Portfolio Website</h3>
+
+          <p>
+            Designed and developed a modern responsive
+            portfolio focused on storytelling, UI/UX,
+            glassmorphism effects, and personal branding
+            using HTML, CSS, and JavaScript.
+          </p>
+
+        </div>
+
+        <div class="project-bottom">
+
+          <div class="tech-stack">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+
+          <div class="project-buttons">
+            <button>Live Demo</button>
+            <button>GitHub</button>
+          </div>
+
+        </div>
+
+      </article>
+
+      <!-- CARD 2 -->
+      <article class="project-card">
+
+        <div class="project-top">
+
+          <div class="ongoing-badge">
+            Under Development
+          </div>
+
+          <h3>Weather Dashboard</h3>
+
+          <p>
+            Interactive weather dashboard built with
+            APIs, responsive layouts, and modern
+            data presentation techniques using
+            HTML, CSS, and JavaScript.
+          </p>
+
+        </div>
+
+        <div class="project-bottom">
+
+          <div class="tech-stack">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>API</span>
+          </div>
+
+          <div class="project-buttons">
+            <button>Live Demo</button>
+            <button>GitHub</button>
+          </div>
+
+        </div>
+
+      </article>
+
+      <!-- CARD 3 -->
+      <article class="project-card">
+
+        <div class="project-top">
+
+          <div class="soon-badge">
+            Experimental
+          </div>
+
+          <h3>Astronomical Events Dashboard</h3>
+
+          <p>
+            Modern astronomy and atmospheric
+            web application providing celestial
+            event tracking and real-time weather
+            information through APIs.
+          </p>
+
+        </div>
+
+        <div class="project-bottom">
+
+          <div class="tech-stack">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>API</span>
+          </div>
+
+          <div class="project-buttons">
+            <button>Live Demo</button>
+            <button>GitHub</button>
+          </div>
+
+        </div>
+
+      </article>
+
+      <!-- CARD 4 -->
+      <article class="project-card">
+
+        <div class="project-top">
+
+          <div class="soon-badge">
+            Experimental Updates
+          </div>
+
+          <h3>Thesis Project</h3>
+
+          <p>
+            Enhanced online video platform with
+            age detection using Convolutional
+            Neural Networks (CNN) for
+            age-appropriate recommendations.
+          </p>
+
+        </div>
+
+        <div class="project-bottom">
+
+          <div class="tech-stack">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Python</span>
+            <span>Machine Learning</span>
+          </div>
+
+          <div class="project-buttons">
+            <button>Live Demo</button>
+            <button>GitHub</button>
+          </div>
+
+        </div>
+
+      </article>
+
+    </div>
+
+    <button class="carousel-btn next">
+      &#10095;
+    </button>
+
+  </div>
+
+  <button id="btn-explore-projects">
+    Explore My Projects
+  </button>
+
+</section>
+
+    <div class="contact-heading">
+  <h2>Contact</h2>
+</div>
+
+<section class="contact-section" id="contact">
+
+  <div class="contact-info-card">
+
+    <h2 class="contact-title">GET IN TOUCH</h2>
+
+    <p class="contact-description">
+      Feel free to contact me for collaborations, opportunities,
+      or just to connect. I'm always open to learning and
+      building meaningful projects.
+    </p>
+
+    <div class="contact-details">
+
+      <div class="contact-item">
+
+        <div class="contact-icon">📧</div>
+
+        <div class="contact-text">
+          <h3>Email</h3>
+          <p>a3ron.work@mail.com</p>
+        </div>
+
+      </div>
+
+      <div class="contact-item">
+
+        <div class="contact-icon">📱</div>
+
+        <div class="contact-text">
+          <h3>Phone</h3>
+          <p>+63 991 419 0513</p>
+        </div>
+
+      </div>
+
+      <div class="contact-item">
+
+        <div class="contact-icon">💼</div>
+
+        <div class="contact-text">
+          <h3>LinkedIn</h3>
+          <p>www.linkedin.com/in/mark-aaron-domingo-046647301</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="email-form-card">
+
+    <h2 class="email-me">SEND ME AN EMAIL</h2>
+
+<form class="contact-form" id="contact-form">
+
+  <div class="form-group">
+    <label for="name">Name</label>
+
+    <input
+      type="text"
+      id="name"
+      name="user_name"
+      required
+    >
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email</label>
+
+    <input
+      type="email"
+      id="email"
+      name="user_email"
+      required
+    >
+  </div>
+
+  <div class="form-group">
+    <label for="message">Message</label>
+
+    <textarea
+      id="message"
+      name="message"
+      rows="5"
+      required
+    ></textarea>
+  </div>
+
+  <button type="submit">Send Message</button>
+
+  <p id="status-message"></p>
+
+</form>
+
+  </div>
+
+</section>
+
+
+    <footer class="footer">
+
+        <div class="footer-top">
+
+            <div class="footer-brand">
+
+                <div class="footer-logo">
+                    <img src="assets/logo-dark-bg.png" alt="logo">
+                </div>
+
+                <h2>Mark Aaron Domingo</h2>
+
+                <p>
+                Technical Support Specialist • Web Developer •
+                Aspiring Software Engineer
+                </p>
+
+            </div>
+
+        <div class="footer-links">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="pages/about-page.html">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#resume">Resume</a></li>
+            </ul>
+
+        </div>
+
+        <div class="footer-socials">
+
+            <h3>Get in touch</h3>
+
+            <div class="social-icons">
+            <a href="https://github.com/a3ronwork-ux">GitHub</a>
+            <a href="www.linkedin.com/in/mark-aaron-domingo-046647301">LinkedIn</a>
+            <a href="#">Facebook</a>
+
+        </div>
+
+    </div>
+
+  </div>
+
+  <div class="footer-divider"></div>
+
+  <div class="footer-bottom">
+
+    <p>
+      © 2026 Mark Aaron Domingo. All Rights Reserved.
+    </p>
+
+  </div>
+
+</footer>
+
+  <script src="script/script.js"></script>
+
+</body>
+
+</html>

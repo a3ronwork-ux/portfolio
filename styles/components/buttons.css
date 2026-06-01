@@ -1,0 +1,45 @@
+button, .carousel-btn {
+  padding: 15px 22px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  color: white;
+  background: linear-gradient(135deg, #2563EB, #5c9bff);
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--primary-color);
+  color: white;
+  transform: translateY(-5px);
+}
+
+.carousel-btn {
+  width: 52px;
+  height: 52px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+  border: none;
+
+  cursor: pointer;
+
+  background: linear-gradient(135deg, #5c9bff, #2563EB);
+
+  color: white;
+  font-size: 24px;
+
+  box-shadow:
+    0 8px 20px rgba(59,130,246,0.3);
+
+  transition: all 0.3s ease;
+}
+
+.carousel-btn:hover {
+  transform: scale(1.08);
+}

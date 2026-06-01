@@ -1,0 +1,210 @@
+@media (max-width: 768px) {
+
+  /* HERO SECTION */
+  .home {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+    padding: 60px 30px;
+  }
+
+  .image-container {
+    justify-content: center;
+    margin: 0;
+  }
+
+  .image-container img {
+    width: 240px;
+    height: 240px;
+  }
+
+  .description-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .home h1 {
+    font-size: 72px;
+    line-height: 1.05;
+  }
+
+  .home h3 {
+    font-size: 28px;
+    line-height: 1.5;
+    max-width: 700px;
+  }
+
+  .home p {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .home-pfp-container img {
+    width: 25rem;
+    max-width: 85%;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    margin: 50px auto 0 auto;
+}
+
+  .buttons-container {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* NAVBAR */
+  .nav-bar {
+    flex-direction: row;
+    gap: 25px;
+    padding: 20px;
+  }
+
+  ul {
+    margin-left: 0;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  ul li {
+    float: none;
+  }
+
+  ul li a {
+    padding: 12px 22px;
+    font-size: 15px;
+  }
+
+  .logo {
+    width: 120px;
+  }
+
+  .home::after {
+  display: none;
+}
+
+.about-intro {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.parenthesis {
+  display: none;
+}
+
+  .description-left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .overlap-right {
+    position: relative;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .image-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-right: 0;
+  }
+
+  .image-wrapper img {
+    width: 180px;
+    height: 180px;
+    margin-top: 0;
+    object-fit: cover;
+  }
+
+  .bg-text-name {
+    margin-top: 3rem;
+    margin-left: 20rem;
+  }
+
+  .bg-journey {
+    margin-top: 3rem;
+    margin-left: 20rem;
+  }
+
+  .educ,
+  .work {
+    justify-content: center;
+    width: 100%;
+    gap: 12px;
+    margin-top: 25px;
+  }
+
+  .educ h2,
+  .work h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .educ-description,
+  .work-description {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .description-left p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  #btn-explore {
+    margin-top: 3rem;
+  }
+
+  .about-skills {
+    padding: 0px;
+  }
+
+  .projects {
+    padding: 40px 16px;
+  }
+
+ .carousel-container {
+    grid-template-columns: 50px 1fr 50px; /* smaller nav buttons */
+    gap: 10px;
+    padding: 0 10px;
+  }
+
+  .carousel-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .project-card {
+    min-width: 280px; /* fits ~2.2 cards, hinting there's more */
+    min-height: auto; /* let content determine height */
+  }
+
+  .project-content h3 {
+    font-size: 22px;
+  }
+
+  .contact-section {
+    grid-template-columns: 1fr; /* stack form and info */
+    gap: 30px;
+    padding: 0 20px;
+    margin: 80px auto; /* reduce top margin */
+  }
+
+}

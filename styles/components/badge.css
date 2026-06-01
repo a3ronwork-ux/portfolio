@@ -1,0 +1,73 @@
+.cert-badge,
+.learning-badge,
+.training-badge{
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+.cert-badge {
+  background: rgba(34,197,94,0.15);
+  color: #15803d;
+}
+
+.learning-badge {
+  background: rgba(59,130,246,0.15);
+  color: #2563EB;
+}
+
+.training-badge {
+  background: rgba(251,191,36,0.18);
+  color: #b45309;
+}
+
+.stack-column {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.mini-card {
+  min-height: 230px;
+}
+
+.ongoing-badge {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 18px;
+
+  background: rgba(59,130,246,0.15);
+  color: #1F2F98;
+}
+
+.completed-badge {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 18px;
+
+  background: rgba(34,197,94,0.15);
+  color: #15803d;
+}
+
+.soon-badge {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 18px;
+
+  background: rgba(251,191,36,0.18);
+  color: #b45309;
+}
+
+

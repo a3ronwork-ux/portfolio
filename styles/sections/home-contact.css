@@ -1,0 +1,17 @@
+.contact-heading {
+  text-align: center;
+  margin-top: 80px;
+  font-family: var(--font-main);
+  font-size: var(--section-title);
+  color: var(--primary-color);
+
+}
+
+.contact-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px;
+  max-width: 1200px;
+  margin: 120px auto;
+  padding: 0 40px;
+}

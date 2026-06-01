@@ -1,0 +1,99 @@
+/*Variables*/
+:root {
+   /*****************/
+  /* COLOR PALETTE */
+ /*****************/
+
+  --primary-color: #1F2F98; /*Headings & Background*/
+  --secondary-color: #2563EB; /*Secondary Backgrounds*/
+  --accent-color: #5c9bff; /*Highlight backgrounds*/
+
+  --highlight-bg: rgba(59,130,246,0.15);
+    
+  /*Gradients*/
+  --gradient-primary:
+    linear-gradient(135deg, #1F2F98, #2563EB);
+  --gradient-button:
+    linear-gradient(135deg, #2563EB, #5c9bff);
+  --gradient-hover:
+    linear-gradient(135deg, #5c9bff, #2563EB);
+  --gradient-card-blue:
+    linear-gradient(
+      135deg,
+      rgba(59,130,246,0.12),
+      rgba(255,255,255,0.15)
+      );
+  --gradient-body-bg: 
+    radial-gradient(circle at 20% 30%, #cfe8ff 0%, transparent 40%),
+    radial-gradient(circle at 80% 70%, #dbe9f4 0%, transparent 40%);
+
+  /*Texts*/
+  --text-color-dark: #252525; /*Quotes-highlight*/
+  --text-color-medium: #555; /*Quotes & Paragraphs*/
+  --text-color-light: #666;
+  --text-white: #ffffff; /*header & footer*/
+
+      /*Glassmorphism*/
+  --glass-bg: rgba(255,255,255,0.18);
+  --glass-border:
+    1px solid rgba(255,255,255,0.25);
+  --glass-blur: blur(18px);
+
+      /*Certifications Completion Indicators*/
+  --others-badge-complete: #15803d;
+  --others-badge-progress: #b45309;
+
+  
+  /**************/
+ /* TYPOGRAPHY */
+/**************/
+
+  --font-main: 'Poppins', sans-serif;
+  --font-secondary: 'Inter', sans-serif;
+  --font-decor: 'JetBrains Mono', monospace;
+
+  --main-title: clamp(2.5rem, 6vw, 4rem);
+  --section-title: clamp(2rem, 4vw, 3rem);
+  --card-title: clamp(1.25rem, 2vw, 1.75rem);
+  --section-subtitle: clamp(1rem, 5vw, 1.5rem);
+  --navbar-title: clamp(1.3rem, 1vw, 1rem);
+  --navbar-link: clamp(0.95rem, 1.2vw, 1.05rem);
+  --p-font-size: clamp(0.95rem, 1.5vw, 1.1rem);
+
+  /*************/
+ /*  SPACING  */
+/*************/
+
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 40px;
+  --space-xl: 100px;
+
+  /*******************/
+ /*  BORDER RADIUS  */
+/*******************/
+
+  --radius-sm: 8px;
+  --radius-md: 18px;
+  --radius-lg: 25px;
+  --radius-xl: 30px;
+  --radius-2xl: 35px;
+  --radius-full: 50%;
+
+  /*************/
+ /*  SHADOWS  */
+/*************/
+
+ --shadow-sm:
+    0 4px 12px rgba(0,0,0,0.5);
+  --shadow-md:
+    0 8px 20px rgba(59,130,246,0.15);
+  --shadow-lg:
+    0 8px 32px rgba(31,47,152,0.12);
+  --shadow-xl:
+    0 20px 50px rgba(0,0,0,0.15);
+  --shadow-button:
+    0 10px 25px rgba(59,130,246,0.28);
+
+}
