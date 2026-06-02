@@ -1,5 +1,4 @@
 .nav-bar-container {
-  position: relative;
   z-index: 1000;
   background: var(--gradient-primary);
   box-shadow: var(--shadow-xl);
@@ -11,9 +10,7 @@
 
 nav {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   font-family: var(--font-main);
@@ -24,8 +21,9 @@ nav {
 }
 
 #nav-links {
-  position: absolute;
   z-index: 999;
+  display: flex;
+  position: relative;
 }
 
 #nav-links.active {
@@ -33,7 +31,9 @@ nav {
 }
 
 .logo {
-  width: 15%;
+  width: 120px;
+  height: auto;
+  flex-shrink: 0;
   border-radius: var(--radius-2xl);
   object-fit: cover;
   justify-self: left;
