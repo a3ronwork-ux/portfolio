@@ -29,19 +29,25 @@ body {
   flex-direction: column;
   gap: 15px;
   position: absolute;
-  top: 80px;
-  right: 20px;
-  width: 220px;
+  top: 0px;
+  right: -280px;
+  width: 280px;
+  height: 80vh;
   padding: 20px;
-  background: rgba(31,47,152,0.96);
+  z-index: 999;
+  background: var(--gradient-primary);
   border-radius: 20px;
   backdrop-filter: blur(18px);
   box-shadow:
     0 10px 30px rgba(0,0,0,0.15);
+
+  transition: right 0.3s ease;
 }
 
 #nav-links.active {
   display: flex;
+  right: 0;
+  z-index: 999;
 }
 
 #nav-links li {
@@ -197,7 +203,7 @@ body {
   }
 
   .bg-text-name {
-    top: 28%;
+    top: 40%;
   }
 
   .image-wrapper {

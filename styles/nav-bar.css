@@ -1,4 +1,6 @@
 .nav-bar-container {
+  position: relative;
+  z-index: 1000;
   background: var(--gradient-primary);
   box-shadow: var(--shadow-xl);
   border-radius: var(--radius-lg);
@@ -19,6 +21,15 @@ nav {
   font-weight: 500;
   gap: 4rem;
   padding: 0 30px;
+}
+
+#nav-links {
+  position: absolute;
+  z-index: 999;
+}
+
+#nav-links.active {
+  z-index: 9999;
 }
 
 .logo {
