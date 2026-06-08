@@ -3,7 +3,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 1.5rem;
+  gap: 2.5rem;
   padding: 2rem 5rem;
 
   animation: floatIn 1s ease-out forwards;
@@ -50,14 +50,14 @@
 
 .home p{
   font-family: var(--font-secondary);
-  font-size: var(--p-font-size);
+  font-size: var(--section-subtitle);
   color: var(--text-color-medium);
   line-height: 1.6;
   margin-top: 2rem;
 }
 
 .home-pfp-container img {
-  width: 50rem;
+  width: 40rem;
   max-width: 100%;
   justify-self: center;
   border-radius: var(--radius-full);

@@ -8,12 +8,10 @@
 }
 
 .about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 6rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
   overflow: hidden;
+  margin-top: 7rem;
 
   animation: floatIn linear both;
   animation-timeline: view();
@@ -164,4 +162,34 @@
   filter:
     drop-shadow(var(--shadow-md));
   transform: rotate(-12deg);
+}
+
+.quote-mark {
+  font-family: var(--font-decor);
+  font-size: clamp(5rem, 10vw, 9rem);
+  text-align: center;
+  line-height: 1;
+  color: rgba(0,0,0,0.08);
+}
+
+.about-skills-divider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0rem;
+  padding-bottom: 7rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.about-skills-divider h5 {
+  font-size: var(--p-font-size);
+  font-family: var(--font-main);
+  color: var(--text-color-medium);
+  text-align: center;
+  font-style: italic;
+  line-height: 1.6;
+  justify-content: center;
+  align-items: center;
 }
