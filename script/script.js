@@ -66,4 +66,12 @@ emailjs.init("enhw_LZtFOPoyzNJD");
 
 });
 
+document.getElementById('btn-projects').addEventListener('click', () => {
+  document.getElementById('projects-section').scrollIntoView({ behavior: 'smooth' });
+});
+
+document.getElementById('btn-contact').addEventListener('click', () => {
+  document.getElementById('contact-section').scrollIntoView({ behavior: 'smooth' });
+});
+
 
