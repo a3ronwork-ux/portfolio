@@ -185,15 +185,15 @@ body {
 
    .bg-text-greet,
   .bg-text-name {
-    position: absolute;
+    position: static;
 
-    font-size: clamp(2.5rem, 10vw, 4rem);
+    font-size: clamp(1.8rem, 10vw, 3rem);
 
     white-space: normal;
     line-height: 0.95;
 
-    margin-left: 0;
-    margin-right: 4rem;
+    padding-left: 0;
+    padding-right: 10rem;
 
     width: 100%;
     text-align: center;
@@ -201,12 +201,12 @@ body {
   }
 
   .bg-text-greet {
-    top: -5rem;
-    right: 10%;
+    top: 0;
+    right: 0;
   }
 
   .bg-text-name {
-    top: 40%;
+    top: 0;
   }
 
   .image-wrapper {
@@ -241,6 +241,8 @@ body {
   .description-left p {
     font-size: 15px;
     line-height: 1.7;
+    max-width: 50%;
+    margin: 0 auto;
   }
 
   #btn-explore {
