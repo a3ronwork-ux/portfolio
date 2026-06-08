@@ -9,9 +9,11 @@
 /*Components*/
 @import url("./components/buttons.css");
 @import url("./components/glass-skills.css");
+@import url("./components/glass-roadmap.css");
 @import url("./components/carousel-projects.css");
 @import url("./components/form-contact.css");
 @import url("./components/badge.css");
+@import url("./components/timeline-about.css");
 
 /*Home Page Sections*/
 @import url("./sections/home.css");
@@ -22,7 +24,7 @@
 /*About Page Sections*/
 @import url("./sections/about.css");
 @import url("./sections/about-skills.css");
-@import url("./sections/about-certifications.css");
+@import url("./sections/about-credentials.css");
 @import url("./sections/about-roadmap.css");
 @import url("./sections/about-interests.css");
 

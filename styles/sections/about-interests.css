@@ -1,0 +1,82 @@
+
+.interests-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.interests-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(
+            rgba(10, 20, 40, 0.55),
+            rgba(10, 20, 40, 0.55)
+        ),
+    url("/assets/interests-bg.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  z-index: 0;
+}
+
+.interests-header-wrapper,
+.interests-content,
+.interests-section > * {
+  position: relative;
+  z-index: 1;
+}
+
+.interests-section h3 {
+  color: white;
+  font-size: var(--card-title);
+}
+
+.interests-section p {
+  color: white;
+  font-size: var(--font-size-p);
+  margin-top: 1rem;
+}
+
+.interests-header-wrapper {
+  margin-top: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+  position: relative;
+}
+
+.interests-header h2 {
+  font-size: var(--section-title);
+  color: white;
+  text-shadow:
+    0 18px 40px rgba(31,47,152,0.3),
+    0 8px 20px rgba(59,130,246,0.3);
+}
+
+.rocket-container {
+  width: 250px;
+  height: 250px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rocket {
+  width: clamp(120px, 10vw, 160px);
+
+  filter:
+        drop-shadow(0 18px 40px rgba(31,47,152,0.16))
+        drop-shadow(0 8px 20px rgba(59,130,246,0.15));
+
+  animation: floatIn linear both;
+  animation-timeline: view();
+  animation-range: entry 20% cover 40%;
+}
+

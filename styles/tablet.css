@@ -1,5 +1,56 @@
 @media (max-width: 768px) {
 
+  .nav-bar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+}
+
+.burger {
+  display: flex;
+  top: 0px;
+  right: 25px;
+  z-index: 1001;
+}
+
+#nav-links {
+  display: none;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+  top: calc(100% + 10px);
+  right: 0;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  z-index: 999;
+  background: var(--gradient-primary);
+  border-radius: 20px;
+  backdrop-filter: blur(18px);
+  box-shadow:
+    0 10px 30px rgba(0,0,0,0.15);
+
+  transition: right 1s ease;
+}
+
+#nav-links.active {
+  display: flex;
+  right: 0;
+  z-index: 999;
+}
+
+#nav-links li {
+  float: none;
+}
+
+#nav-links li a {
+  padding: 12px 18px;
+  text-align: center;
+  width: 100%;
+}
   /* HERO SECTION */
   .home {
     flex-direction: column;
@@ -205,6 +256,16 @@
     gap: 30px;
     padding: 0 20px;
     margin: 80px auto; /* reduce top margin */
+  }
+
+  .story-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .bg-journey {
+    margin-right: 7rem;
   }
 
 }

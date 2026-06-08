@@ -1,12 +1,12 @@
 @keyframes floatIn {
   from {
     opacity: 0;
-    transform: translate3d(0, 24px, 0);
+    transform: translateY(50px);
   }
 
   to {
     opacity: 1;
-    transform: translate3d(0, 0, 0);
+    transform: translateY(0);
   }
 }
 
@@ -44,32 +44,6 @@
     box-shadow:
       0 0 22px rgba(59,130,246,0.25),
       0 0 42px rgba(59,130,246,0.10);
-  }
-
-}
-
-@keyframes rocket-flyIn {
-
-  0% {
-    transform:
-      translate3d(-120vw, 80vh, 0)
-      rotate(40deg)
-      scale(0.92);
-
-    opacity: 0;
-  }
-
-  60% {
-    opacity: 1;
-  }
-
-  100% {
-    transform:
-      translate3d(0, 0, 0)
-      rotate(0deg)
-      scale(1);
-
-    opacity: 1;
   }
 
 }

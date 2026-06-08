@@ -1,0 +1,30 @@
+.skills-section {
+  text-align: center;
+  margin-top: 50px;
+  color: var(--primary-color)
+}
+
+.skills-description{
+  position: relative;
+
+  animation: floatIn 1s ease-out forwards;
+}
+
+.tools h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  font-size: var(--section-title);
+  font-family: var(--font-main);
+  color: var(--primary-color);
+}
+
+.skills-description h5 {
+  font-size: var(--p-font-size);
+  font-family: var(--font-main);
+  color: var(--text-color-medium);
+  font-style: italic;
+  line-height: 1.6;
+  padding: 0 10%;
+}

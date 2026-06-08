@@ -50,26 +50,4 @@ emailjs.init("enhw_LZtFOPoyzNJD");
     });
   });
 
-  const observerOptions = {
-  root: null,
-  threshold: 0.2 // Triggers when 20% of the section is visible
-};
-
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    const rocket = entry.target.querySelector('.rocket');
-    
-    if (entry.isIntersecting) {
-      
-      rocket.classList.add('animate');
-    } else {
-      
-      rocket.classList.remove('animate');
-    }
-  });
-}, observerOptions);
-
-
-const section = document.querySelector('.interests-section');
-observer.observe(section);
 

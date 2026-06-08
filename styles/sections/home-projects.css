@@ -6,14 +6,10 @@
 }
 
 .projects-title {
-     display: flex;
-
-  justify-content: center;
-  align-items: center;
-
-  margin: 50px auto 0 auto;
-    font-size: 52px;
-    font-family: 'Poppins', sans-serif;
-    color: #1F2F98;
-    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--section-title);
+    font-family: var(--font-main);
+    color: var(--primary-color);
 }

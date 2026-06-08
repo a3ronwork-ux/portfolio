@@ -1,8 +1,9 @@
 .contact-heading {
-  text-align: center;
-  margin-top: 80px;
-  font-family: var(--font-main);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: var(--section-title);
+  font-family: var(--font-main);
   color: var(--primary-color);
 
 }

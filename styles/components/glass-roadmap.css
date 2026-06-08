@@ -1,0 +1,135 @@
+.roadmap-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.roadmap-column {
+  position: relative;
+  padding: 35px;
+  border-radius: 35px;
+  background: rgba(255,255,255,0.18);
+  border: 1px solid rgba(255,255,255,0.25);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  box-shadow:
+    0 8px 32px rgba(31,47,152,0.12),
+    inset 0 1px 1px rgba(255,255,255,0.25);
+  overflow: hidden;
+}
+
+.roadmap-column::before {
+  content: "";
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  top: -100px;
+  right: -100px;
+  border-radius: 50%;
+  background:
+    radial-gradient(
+      circle,
+      rgba(59,130,246,0.18),
+      transparent
+    );
+}
+
+.roadmap-column::after {
+  content: "</>";
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  font-size: 42px;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 800;
+  color: rgba(47,95,227,0.06);
+}
+
+.roadmap-column h2 {
+  position: relative;
+  z-index: 2;
+  font-size: 28px;
+  font-family: 'Poppins', sans-serif;
+  color: #1F2F98;
+  margin-bottom: 30px;
+}
+
+.roadmap-card {
+  position: relative;
+  z-index: 2;
+  padding: 18px 22px;
+  margin-bottom: 18px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.35s ease;
+  cursor: pointer;
+}
+
+.roadmap-card:hover {
+  transform: translateY(-5px);
+}
+
+.completed {
+  background:
+    linear-gradient(
+      135deg,
+      rgba(37,99,235,0.16),
+      rgba(92,155,255,0.18)
+    );
+
+  color: #1F2F98;
+
+  box-shadow:
+    0 8px 20px rgba(59,130,246,0.15);
+}
+
+.learning {
+  background:
+    linear-gradient(
+      135deg,
+      rgba(59,130,246,0.20),
+      rgba(255,255,255,0.25)
+    );
+
+  color: #1F2F98;
+
+  border: 1px solid rgba(59,130,246,0.25);
+
+  animation: glow 3s infinite ease-in-out;
+}
+
+.future {
+  background:
+    rgba(255,255,255,0.15);
+
+  border: 1px dashed rgba(59,130,246,0.35);
+
+  color: #555;
+}
+
+.final-goal {
+  background:
+    linear-gradient(
+      135deg,
+      #2563EB,
+      #1F2F98
+    );
+
+  color: white;
+
+  text-align: center;
+
+  margin-top: 35px;
+
+  box-shadow:
+    0 12px 30px rgba(37,99,235,0.28);
+
+  animation:
+    floatingGoal 5s ease-in-out infinite,
+    glowingGoal 4s ease-in-out infinite;
+
+    will-change: transform, box-shadow;
+}

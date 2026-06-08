@@ -1,0 +1,35 @@
+.whats-next-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whats-next-header h3 {
+  font-size: var(--section-title);
+  font-family: var(--font-main);
+  color: var(--primary-color);
+}
+
+.whats-next-header h1 {
+  font-family: var(--font-decor);
+  font-size: clamp(5rem, 10vw, 9rem);
+  text-align: center;
+  line-height: 1;
+  color: rgba(0,0,0,0.08);
+  margin-bottom: 3rem;
+}
+
+.whats-next-description h5 {
+  font-size: var(--p-font-size);
+  font-family: var(--font-main);
+  color: var(--text-color-medium);
+  font-style: italic;
+  line-height: 1.6;
+  padding: 0 10%;
+}
+
+.roadmap-section {
+  padding: 60px 60px;
+  position: relative;
+  overflow: hidden;
+}

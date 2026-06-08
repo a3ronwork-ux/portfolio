@@ -30,16 +30,15 @@
 
     <ul id="nav-links">
       <li><a href="#home">Home</a></li>
-      <li><a href="#about">About Me</a></li>
-      <li><a href="#about-skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="pages/about-page.html">About Me</a></li>
+      <li><a href="pages/about-page.html#skills-section">Skills</a></li>
+      <li><a href="#projects-section">Projects</a></li>
+      <li><a href="#contact-section">Contact</a></li>
     </ul>
 
   </nav>
 
 </div>
-
 
     <section class="home" id="home">
 
@@ -106,7 +105,7 @@
             </p>
           </div>
 
-          <button id="btn-explore" a href="pages/about-page.html">Learn More About Me</button>
+          <button id="btn-explore" onclick="window.location.href='/pages/about-page.html'">Learn More About Me</button>
 
         </div>
 
@@ -161,13 +160,13 @@
     </div>
 
       <div class="explore-skills-btn-container">
-      <button id="btn-explore-skills" onclick="window.location.href='pages/about-page.html#skills-section'">Explore My Skills</button>
+      <button id="btn-explore-skills" onclick="window.location.href='/pages/about-page.html#skills-section'">Explore My Skills</button>
       </div>
 
         
     </section>
 
-    <section class="projects-section">
+    <section class="projects-section" id="projects-section">
 
   <div class="projects-header">
     <h2 class="projects-title">PROJECTS</h2>
@@ -340,17 +339,17 @@
 
   </div>
 
-  <button id="btn-explore-projects">
+  <button id="btn-explore-projects" onclick="window.location.href='/pages/projects-page.html'">
     Explore My Projects
   </button>
 
 </section>
 
     <div class="contact-heading">
-  <h2>Contact</h2>
-</div>
+      <h2>Contact</h2>
+    </div>
 
-<section class="contact-section" id="contact">
+<section class="contact-section" id="contact-section">
 
   <div class="contact-info-card">
 
@@ -477,9 +476,9 @@
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="pages/about-page.html">About Me</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="pages/about-page.html#skills-section">Skills</a></li>
+                <li><a href="pages/projects-page.html">Projects</a></li>
+                <li><a href="#contact-section">Contact</a></li>
                 <li><a href="#resume">Resume</a></li>
             </ul>
 
@@ -512,7 +511,7 @@
 
 </footer>
 
-  <script src="script/script.js"></script>
+  <script src="/script/script.js"></script>
 
 </body>
 
