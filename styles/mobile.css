@@ -389,6 +389,14 @@ body {
     font-size: 42px;
 }
 
+.career-journey {
+  padding: 0px;
+}
+
+.career-journey h5 {
+  text-align: center;
+}
+
 .timeline::after {
     left: 30px;
   }
