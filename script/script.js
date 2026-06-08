@@ -50,4 +50,20 @@ emailjs.init("enhw_LZtFOPoyzNJD");
     });
   });
 
+  document
+  .getElementById("btn-resume")
+  .addEventListener("click", () => {
+
+    const link = document.createElement("a");
+
+    link.href =
+      "assets/Mark-Aaron-Domingo-Resume.pdf";
+
+    link.download =
+      "Mark-Aaron-Domingo-Resume.pdf";
+
+    link.click();
+
+});
+
 
