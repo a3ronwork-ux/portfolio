@@ -74,4 +74,31 @@ document.getElementById('btn-contact').addEventListener('click', () => {
   document.getElementById('contact-section').scrollIntoView({ behavior: 'smooth' });
 });
 
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('is-visible');
+      observer.unobserve(entry.target);
+    }
+  });
+}, {
+  threshold: 0.1 
+});
+
+document.querySelectorAll(`
+  .about, 
+  .about-skills-divider,
+  .about-skills,
+  .projects-section,
+  .contact-section,
+  .career-journey,
+  .timeline-section,
+  .skills-section,
+  .certifications-section,
+  .whats-next-section,
+  .roadmap-section,
+  .interests-section
+`).forEach(item => {
+  observer.observe(item);
+});
 

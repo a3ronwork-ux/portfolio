@@ -126,10 +126,4 @@
 
   box-shadow:
     0 12px 30px rgba(37,99,235,0.28);
-
-  animation:
-    floatingGoal 5s ease-in-out infinite,
-    glowingGoal 4s ease-in-out infinite;
-
-    will-change: transform, box-shadow;
 }

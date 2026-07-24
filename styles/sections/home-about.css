@@ -13,11 +13,8 @@
   overflow: hidden;
   margin-top: 7rem;
 
-  animation: floatIn linear both;
-  animation-timeline: view();
-  animation-range: entry 10% cover 30%; 
+  animation: floatIn 1s ease-out forwards;
 }
-
 
 .about-intro {
   max-width: 1200px;

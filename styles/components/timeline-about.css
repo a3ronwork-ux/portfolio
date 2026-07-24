@@ -87,10 +87,6 @@
   transition: all 0.35s ease;
   position: relative;
   border-radius: 6px;
-
-  animation: floatIn linear both;
-  animation-timeline: view();
-  animation-range: entry 20% cover 40%;
 }
 
 .content h2 {

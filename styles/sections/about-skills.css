@@ -6,8 +6,6 @@
 
 .skills-description{
   position: relative;
-
-  animation: floatIn 1s ease-out forwards;
 }
 
 .tools h2 {

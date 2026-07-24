@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../portfolio-website"
+		},
+		{
+			"path": "../back-ups/portfolio-website - backup 1"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "portfolio-website-v2"
+	}
+}

@@ -88,6 +88,7 @@
 
 .footer-links {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -112,7 +113,7 @@
 }
 
 .footer-links li {
-  margin-bottom: 14px;
+  flex: 1;
 }
 
 .footer-links a,
