@@ -103,7 +103,9 @@
   position: relative;
   z-index: 3;
   display: flex;
-  justify-content: right;
+  justify-content: center;
+  margin-top: 1.5rem;
+  margin-left: 4.5rem;
 }
 
 .image-wrapper img {
